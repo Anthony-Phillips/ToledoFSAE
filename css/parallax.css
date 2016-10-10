@@ -1,16 +1,4 @@
 .parallax1{
-background-image: url("../images/car.jpg");
-
-/* Set a specific height */
-height: 500px; 
-
-/* Create the parallax scrolling effect */
-background-attachment: fixed;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-}
-.parallax2{
 background-image: url("../images/murica.jpg");
 
 /* Set a specific height */
@@ -18,19 +6,31 @@ height: 500px;
 
 /* Create the parallax scrolling effect */
 background-attachment: fixed;
-background-position: center;
+background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
 }
-.parallax3{
-background-image: url("../images/car.jpg");
+.parallax2{
+background-image: url("../images/happypeople.jpg");
 
 /* Set a specific height */
 height: 500px; 
 
 /* Create the parallax scrolling effect */
 background-attachment: fixed;
-background-position: center;
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.parallax3{
+background-image: url("../images/sponsors.png");
+
+/* Set a specific height */
+height: 500px; 
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
 }
