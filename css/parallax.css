@@ -1,4 +1,4 @@
-.parallax1{
+.first-slide{
 background-image: url("../images/murica.jpg");
 
 /* Set a specific height */
@@ -6,11 +6,11 @@ height: 500px;
 
 /* Create the parallax scrolling effect */
 background-attachment: fixed;
-background-position: center center;
+background-position: center -75px;
 background-repeat: no-repeat;
 background-size: cover;
 }
-.parallax2{
+.second-slide{
 background-image: url("../images/happypeople.jpg");
 
 /* Set a specific height */
@@ -18,11 +18,11 @@ height: 500px;
 
 /* Create the parallax scrolling effect */
 background-attachment: fixed;
-background-position: center center;
+background-position: center -100px;
 background-repeat: no-repeat;
 background-size: cover;
 }
-.parallax3{
+.third-slide{
 background-image: url("../images/sponsors.png");
 
 /* Set a specific height */
@@ -30,7 +30,7 @@ height: 500px;
 
 /* Create the parallax scrolling effect */
 background-attachment: fixed;
-background-position: center center;
+background-position: center -75px;
 background-repeat: no-repeat;
 background-size: cover;
 }
