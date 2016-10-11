@@ -16,7 +16,7 @@ background-size: cover;
 height: 500px; 
 background-attachment: fixed;
 }
-@media (max-height: 700px)
+@media (max-height: 500px)
 {	
 	.first-slide{
 	background-position: center;
