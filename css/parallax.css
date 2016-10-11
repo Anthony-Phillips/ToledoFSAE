@@ -1,36 +1,45 @@
 .first-slide{
 background-image: url("../images/murica.jpg");
-
-/* Set a specific height */
-height: 500px; 
-
-/* Create the parallax scrolling effect */
-background-attachment: fixed;
-background-position: center -75px;
-background-repeat: no-repeat;
-background-size: cover;
+background-position: center -125px;
 }
 .second-slide{
-background-image: url("../images/happypeople.jpg");
-
-/* Set a specific height */
-height: 500px; 
-
-/* Create the parallax scrolling effect */
-background-attachment: fixed;
-background-position: center -100px;
-background-repeat: no-repeat;
-background-size: cover;
+background-image: url("../images/car.jpg");
+background-position: center -150px;
 }
 .third-slide{
 background-image: url("../images/sponsors.png");
-
-/* Set a specific height */
-height: 500px; 
-
-/* Create the parallax scrolling effect */
-background-attachment: fixed;
 background-position: center -75px;
+}
+.parallax{
 background-repeat: no-repeat;
 background-size: cover;
+height: 500px; 
+background-attachment: fixed;
+}
+@media (max-height: 700px)
+{	
+	.first-slide{
+	background-position: center;
+	}
+	.second-slide{
+	background-position: center -100px;
+	}
+	.third-slide{
+	background-position: center center;
+	}
+}
+@media (min-width: 1300px)
+{
+	.second-slide{
+	background-position: center -300px;
+	}
+}
+@media (min-width: 1600px)
+{
+	.item{
+	background-size:80%;
+	}
+	.first-slide{
+	background-position: center -25px;
+	}
 }
