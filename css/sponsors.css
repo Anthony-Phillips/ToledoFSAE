@@ -1,0 +1,8 @@
+.carousel {
+  background-image:url("../images/sponsors.png");
+  background-position: center -125px;
+background-repeat: no-repeat;
+background-size: cover;
+height: 500px; 
+background-attachment: fixed;
+}
