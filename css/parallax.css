@@ -36,9 +36,6 @@ background-attachment: fixed;
 }
 @media (min-width: 1600px)
 {
-	.item{
-	background-size:80%;
-	}
 	.first-slide{
 	background-position: center -25px;
 	}
